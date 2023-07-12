@@ -30,9 +30,11 @@
 		<header class="header">
 	<div class="container header__container">
 		
-	<div class="logo">
+	<div class="logo logo--mixed">
 		<a class="logo__link" href="/" title="第四纪地层" rel="home">
-			<div class="logo__item logo__text">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/placeholder.png">
+				</div><div class="logo__item logo__text">
 					<div class="logo__title">第四纪地层</div>
 					<div class="logo__tagline">Just soso site</div>
 				</div>
@@ -66,7 +68,7 @@
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/post/basic-elements/">
+			<a class="menu__link" href="/post/test%E5%93%88%E5%93%88%E5%93%88/">
 				
 				<span class="menu__text">Basic Elements</span>
 				
@@ -97,46 +99,7 @@
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-01-24T14:00:00Z">January 24, 2022</time></div></div>
 		</header>
 		<div class="content post__content clearfix">
-			<p>Welcome to the Mainroad theme documentation. This quick start guide covers Mainroad theme installation and minimal
-configuration and is intended for intermediate to advanced users. To understand this guide, you need to be familiar
-with the <a href="https://gohugo.io/">Hugo</a> static site generator.</p>
-<h2 id="installation">Installation</h2>
-<p>Before installing the <strong>Mainroad</strong> theme, make sure that you&rsquo;ve
-<a href="https://gohugo.io/getting-started/quick-start/#step-1-install-hugo">installed <strong>Hugo</strong> (version 0.48 or later)</a> and
-<a href="https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site">created a new site</a>. To learn how to install
-Hugo, visit <a href="https://gohugo.io/getting-started/installing/">Hugo Documentation</a>.</p>
-<p>There are a few ways to install a theme in Hugo. This can be done via git submodule, git clone, Hugo modules, or
-by downloading the archive and manually copying the files. Three installation options are described below.</p>
-<h3 id="option-a-git-submodule">Option A: <code>git submodule</code></h3>
-<p><em>Additional requirements: git</em></p>
-<p>If you don&rsquo;t plan to make significant changes to the theme but still want to track and update it, you can add it as a
-<a href="https://git-scm.com/docs/git-submodule">git submodule</a> by running the following command from the root directory of
-your Hugo site:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git submodule add https://github.com/vimux/mainroad.git themes/mainroad
-</span></span></code></pre></div><p><strong>Note:</strong>
-<a href="https://docs.netlify.com/configure-builds/common-configurations/hugo/#hugo-themes">Netlify expects git submodule</a>
-instead of git clone.</p>
-<h3 id="option-b-git-clone">Option B: <code>git clone</code></h3>
-<p><em>Additional requirements: git</em></p>
-<p>Run this <a href="https://git-scm.com/docs/git-clone">git clone</a> command from the root of your Hugo site:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git clone https://github.com/vimux/mainroad.git themes/mainroad
-</span></span></code></pre></div><h3 id="option-c-manual-install">Option C: Manual install</h3>
-<p>If you do not want to use git, you can manually
-<strong><a href="https://github.com/vimux/mainroad/archive/master.zip">download ZIP</a></strong> and extract it into the <code>themes/mainroad</code>
-within your Hugo site.</p>
-<hr>
-<h3 id="activate-theme">Activate theme</h3>
-<p>Whichever installation option you choose, don&rsquo;t forget to edit <code>theme</code> param of the site configuration <code>config.toml</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;mainroad&#34;</span>
-</span></span></code></pre></div><p>To check it out, build the site via <code>hugo</code> command or make it available on a local server via <code>hugo server</code>.</p>
-<h2 id="minimal-configuration">Minimal configuration</h2>
-<p><strong>Do not copy the <a href="https://github.com/vimux/mainroad#configtoml-example">example config</a> as-is.</strong>
-Use only the parameters that you need. The Mainroad theme contains required defaults, so you don&rsquo;t need to add all of
-the configuration parameters to run the theme for the first time. Before adding any theme-specific parameters, make
-sure to edit the <code>theme</code> param inside the config file and check that the theme works.</p>
-<p>For information about common customization settings, see <a href="/docs/customization/" title="Mainroad theme customization">Customization page</a>.
-To view our example configuration, visit <a href="https://github.com/vimux/mainroad/blob/master/exampleSite/config.toml">demo config</a>.</p>
-<p><a href="https://github.com/vimux/mainroad/blob/master/exampleSite/content/docs/getting-started.md">Edit this page on GitHub</a></p>
+			
 		</div>
 		<footer class="post__footer">
 			
